@@ -45,7 +45,7 @@
     </array>
     <key>UIViewControllerBasedStatusBarAppearance</key>
     <true/>
-    
+
     <!-- 🚀 إعدادات الإشعارات -->
     <key>UIBackgroundModes</key>
     <array>
@@ -54,13 +54,11 @@
     </array>
     <key>FirebaseAppDelegateProxyEnabled</key>
     <false/>
-    <key>UIUserNotificationSettings</key>
-    <dict>
-        <key>NSAllowsArbitraryLoads</key>
-        <true/>
-    </dict>
-    <key>NSUserTrackingUsageDescription</key>
-    <string>يتم استخدام الإشعارات لتقديم تحديثات مباشرة ومعلومات هامة.</string>
+
+    <!-- 🔔 إذا أردت، يمكنك استخدام المفتاح التالي لوصف استخدام الإشعارات -->
+    <!-- <key>NSUserNotificationUsageDescription</key>
+    <string>يتم استخدام الإشعارات لتقديم تحديثات مباشرة ومعلومات هامة.</string> -->
+
     <key>aps-environment</key>
     <string>development</string>
 </dict>
